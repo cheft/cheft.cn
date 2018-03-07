@@ -8,6 +8,11 @@ body {
   font-family: "Microsoft Yahei";
 }
 
+p {
+  font-size: 14px;
+  color: #222222;
+}
+
 .header {
   height: 600px;
   background: #F7D963 url(img/bg.gif) center top no-repeat;
@@ -31,20 +36,24 @@ body {
 
 .elements {
   position: relative;
-  width: 800px;
-  height: 200px;
-  top: 500px;
+  width: 700px;
+  padding: 30px 20px 30px 0;
+  top: 470px;
   margin: auto;
   background: #F5F5F5;
-  border-radius: 12px;
+  border-radius: 6px;
   box-shadow: 2px 2px 3px rgba(0,0,0,.15);
   text-align: center;
 }
 
+.elements h2 {
+  margin-bottom: 20px;
+}
+
 .element {
   display: inline-block;
-  width: 250px;
-  margin-left: 5px;
+  width: 200px;
+  margin-left: 20px;
 }
 
 .element img {
@@ -52,15 +61,13 @@ body {
 }
 
 .faq {
-  padding: 130px 30px 30px 30px;
+  padding: 180px 30px 30px 30px;
   text-align: center;
   background: #F3F5F7;
 }
 
-.course {
-  padding: 30px;
-  text-align: center;
-  background: #F6D86C;
+.faq .list > li {
+  width: 350px;
 }
 
 .list {
@@ -71,8 +78,19 @@ body {
 
 .list > li {
   display: inline-block;
-  width: 320px;
-  margin: 20px 0;
+  margin: 20px;
+  vertical-align: top;
+}
+
+
+.course {
+  padding: 30px;
+  text-align: center;
+  background: #F6D86C;
+}
+
+.course .list > li {
+  width: 250px;
 }
 
 .footer {
