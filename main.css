@@ -8,9 +8,15 @@ body {
   font-family: "Microsoft Yahei";
 }
 
+h2, h3 {
+  color: #4E5054;
+}
+
 p {
-  font-size: 14px;
-  color: #222222;
+  font-size: 13px;
+  color: #9A9B9F;
+  word-spacing: 0.4rem;
+  line-height: 1.4rem;
 }
 
 .header {
@@ -26,7 +32,8 @@ p {
   width: 100%;
   height: 600px;
   /* background: rgba(0,0,0,.5); */
-  background: rgba(173, 173, 173, 0.7);
+  /* background: rgba(117, 40, 216, 1); */
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   text-align: center;
 }
 
@@ -42,7 +49,7 @@ p {
   margin: auto;
   background: #F5F5F5;
   border-radius: 6px;
-  box-shadow: 2px 2px 3px rgba(0,0,0,.15);
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .2);
   text-align: center;
 }
 
@@ -63,7 +70,11 @@ p {
 .faq {
   padding: 180px 30px 30px 30px;
   text-align: center;
-  background: #F3F5F7;
+  background: #F6F6F6;
+}
+
+.faq .list {
+  width: 1180px;
 }
 
 .faq .list > li {
@@ -86,7 +97,11 @@ p {
 .course {
   padding: 30px;
   text-align: center;
-  background: #F6D86C;
+  background: #FFFFFF;
+}
+
+.course .list {
+  width: 1180px;
 }
 
 .course .list > li {
@@ -96,6 +111,46 @@ p {
 .footer {
   text-align: center;
   color: #FFFFFF;
-  background: #2E3132;
+  background: #06060B;
   padding: 30px;
+}
+
+.profile {
+  float: left;
+  width: 400px;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.profile h3 {
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.profile p {
+  text-align: left;
+  word-spacing: 0.5rem;
+  line-height: 1.5rem;
+  color: #FFFFFF;
+}
+
+.footer .contact {
+  margin-top: 50px;
+}
+
+.footer img {
+  width: 250px;
+}
+
+.iconfont {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  font-size: 20px;
+  border-radius: 50%;
+  color: #764ba2;
+  border: 1px solid #764ba2;
+  background: #FFFFFF;
+  margin-bottom: 6px;
 }
