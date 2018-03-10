@@ -93,7 +93,6 @@ p {
   vertical-align: top;
 }
 
-
 .course {
   padding: 30px;
   text-align: center;
@@ -115,11 +114,19 @@ p {
   padding: 30px;
 }
 
+.footer h2, .footer h3 {
+  color: #FFFFFF;
+}
+
+.joinus {
+  padding: 40px;
+  width: 1130px;
+  margin: auto;
+}
+
 .profile {
+  width: 460px;
   float: left;
-  width: 400px;
-  margin-left: 100px;
-  margin-top: 50px;
 }
 
 .profile h3 {
@@ -134,12 +141,25 @@ p {
   color: #FFFFFF;
 }
 
+.joinus .qrs {
+  float: right;
+}
+
+.qrs h3 {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
 .footer .contact {
   margin-top: 50px;
 }
 
 .footer img {
-  width: 250px;
+  width: 220px;
+}
+
+.qr2 {
+  margin-left: 20px;
 }
 
 .iconfont {
