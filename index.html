@@ -1,191 +1,40 @@
 <!DOCTYPE html>
 <html>
-    
 <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>零基础前端学习课程</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/font_579485_l7e50wozl8k0rudi.css">
-  <link rel="stylesheet" type="text/css" href="main.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>吾艺不精</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.13.2/dist/style.css">
 </head>
 <body>
-  <div class="header">
-    <img class="title" src="img/title.png">
-    <div class="elements">
-      <h2>网页如建筑，由三种语言构成</h2>
-      <div class="element">
-        <img src="img/html.png">
-        <p>HTML 描述着网页的结构，好比楼房的钢骨</p>
-      </div>
-      <div class="element">
-        <img src="img/css.png">
-        <p>CSS 是网页的软硬装，惊艳动人全掌控</p>
-      </div>
-      <div class="element">
-        <img src="img/js.png">
-        <p>Javascript 可以将网页打造成智能家居，享受舒适的体验</p>
-      </div>
-    </div>
-  </div>
-  <div class="faq">
-    <h2>学前疑问</h2>
-    <ul class="list">
-      <li>
-        <h3>前端是什么？</h3>
-        <p>
-          前端包含但不止于：PC 网站、手机网站、手机 App、微信公众号、游戏、VR 内容等；心若大，前端岂止大。
-        </p>
-      </li>
-      <li>
-        <h3>前端编程最容易学习？</h3>
-        <p>
-          HTML 易懂，CSS 次之，Javascript 深入，循序渐进学习；
-          前端为可视化编程，编写代码即可见效果。
-        </p>
-      </li>
-      <li>
-        <h3>课程适合人群？</h3>
-        <p>
-          想进入 IT 编程工作的，或许您还在迷茫中的，或许此课程能帮到您；
-          已在 IT 中，想学前端技术或尝试独立开发，或许此课程能让您熟悉。
-        </p>
-      </li>
-      <li>
-        <h3>我英语不好，能学会吗？</h3>
-        <p>
-          英语好固然能帮助学习，但不好也不能代表就学不了。
-          编程大都使用的是编程专业英语，即使英语再好的人都是要把英语学习一番。
-          词汇量不大，反复进行代码编写，自然会将这些英语记牢。
-        </p>
-      </li>
-      <li>
-        <h3>课程多久学完？</h3>
-        <p>
-          大概三个月左右。
-          需要您上课专心学习，课下至少三倍时间的勤加练习；
-          编程路上是需要不断学习前行的，本课程目的是让你踏足此行，掌握学习方法。
-        </p>
-      </li>
-      <li>
-        <h3>学习中途落课了怎么办？</h3>
-        <p>中途耽误几天的话可以通过看视频同步完成老师的作业弥补进度，不会的可以随时问老师。</p>
-      </li>
-      <li>
-        <h3>是否可以免费重修呢？</h3>
-        <p>因学习中途落课或者学习效果不扎实等原因可以向教务老师申请重修或降级，本期学不会下期免费再学，直到学会为止！</p>
-      </li>
-      <li>
-        <h3>课程优势是什么？</h3>
-        <p>
-          精心指导您打牢前端基础，掌握学习 IT 技能的方法；受予鱼，愿授以渔。
-          模拟工作岗位，开展实战项目，课下作业督促指导；
-          问题群内解答，针对个人情况单独指导; 
-        </p>
-      </li>
-      <li>
-        <h3>包推荐工作吗？</h3>
-        <p>
-          原则：不推荐工作，不承诺待遇；
-          始终相信好的工作是自己努力得来的。
-          我会给你底气，我会给你自信。
-        </p>
-      </li>
-    </ul>
-  </div>
-  <div class="course">
-    <h2>课程内容</h2>
-    <ul class="list">
-      <li>
-        <i class="iconfont icon-reshen"></i>
-        <h3>课前预热</h3>
-        <p>个人资料介绍，IT 行业简析，前端岗位了解，网页示例预热</p>
-      </li>
-      <li>
-        <i class="iconfont icon-html"></i>
-        <h3>HTML</h3>
-        <p>HTML 标签学习，学会如何查询手册</p>
-      </li>
-      <li>
-        <i class="iconfont icon-css"></i>
-        <h3>CSS</h3>
-        <p>CSS 样式学习，各种常用布局，示例解析学习</p>
-      </li>
-      <li>
-        <i class="iconfont icon-js"></i>
-        <h3>Javascript</h3>
-        <p>学会编程思想，掌握一门真正的编程语言；做一款小游戏。</p>
-      </li>
-      <li>
-        <i class="iconfont icon-dom"></i>
-        <h3>Dom 对象</h3>
-        <p>DOM 对象解析，结合 Javascript 语言完成实例</p>
-      </li>
-      <li>
-        <i class="iconfont icon-jquery"></i>
-        <h3>jQuery 与 JS 进阶</h3>
-        <p>jQuery 为前端必学的库，包含了 Dom 操作、 Ajax、异步等众多知识点</p>
-      </li>
-      <li>
-        <i class="iconfont icon-bootstrap"></i>
-        <h3>Bootstrap</h3>
-        <p>框架如其名，通过它的指引你会很容易做出一个漂亮的网站</p>
-      </li>
-      <li>
-        <i class="iconfont icon-gongju"></i>
-        <h3>前端技巧与工具</h3>
-        <p>涉及与前端相关的更多技术知识，主要有 PS、Git、Node、Webpack、VSCode </p>
-      </li>
-      <li>
-        <i class="iconfont icon-mobile"></i>
-        <h3>移动项目实战</h3>
-        <p>让你明白移动网站与 PC 网站的区别，一探微信公众号网站的究竟</p>
-      </li> 
-      <li>
-        <i class="iconfont icon-pc"></i>
-        <h3>PC 项目实战</h3>
-        <p>运用所学知识，团队协作完成一个真实的项目</p>
-      </li>
-      <li>
-        <i class="iconfont icon-work"></i>
-        <h3>工作相关</h3>
-        <p>面试题讲解，如何应对人事的面试追问，offer 的挑选经验</p>
-      </li>
-      <li>
-        <i class="iconfont icon-xuexi"></i>
-        <h3>扩展学习</h3>
-        <p>
-          学习方法论，如何去上手前端最流行框架 Vue、React、React Native、小程序等；
-          我们会带你了解服务端技术、数据库技术，让你在工作中能沟通无碍
-        </p>
-      </li>
-    </ul>
-  </div>
-  <div class="footer">
-    <div class="joinus">
-      <div class="profile">
-        <h3>传授人资料</h3>
-        <p>
-          陈海峰，湖南人，Java 程序员出身，当年还未分前端此岗位，前后端都由单人完成（现在称全栈工程师）。
-          大概工作五六年后，前端的用户体验不断升温，因此 web 开发、前端开发的职位才诞生；
-          为了顺应大自然规律，毅然决然投身此岗位，至此已在前端岗位专职三年有余；
-          担任着某某公司前端架构及管理岗位（其实依然被叫做码畜、码农、程序猿）。
-        </p>
-        <p>
-          曾担任过的职位有：.NET 工程师、Java 工程师、全栈工程师、前端工程师、架构师、前端 Leader 等。<br>
-          熟悉的计算机语言有：Javascript、Java、C#、SQL 等。<br>
-          掌握的生态和平台有：React、Node.js、J2EE、.NET、PL/SQL 等。<br>
-          常用的工具有：Mac、VSCode、Git、PS、Sketch、Git 等。
-          工作涉及的行业有：房地产、金融、智能硬件、电力企业等。
-        </p>
-      </div>
-      <div class="qrs">
-        <h3>微信扫一扫，加入我们吧</h3>
-        <img class="qr1" src="img/qr1.png">
-        <img class="qr2" src="img/qr2.png">
-      </div>
-      <div class="clearfix"></div>
-    </div>
-  </div>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@6.7.0"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.13.2"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.13.2/dist/index.umd.min.js"></script><script>(r => {
+                setTimeout(r);
+              })(() => {
+  const {
+    markmap,
+    mm
+  } = window;
+  const toolbar = new markmap.Toolbar();
+  toolbar.attach(mm);
+  const el = toolbar.render();
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root, jsonOptions) => {
+        const markmap = getMarkmap();
+        window.mm = markmap.Markmap.create('svg#mindmap', getOptions == null ? void 0 : getOptions(markmap, jsonOptions), root);
+      })(() => window.markmap,(markmap, jsonOptions) => markmap.deriveOptions(jsonOptions),{"type":"heading","depth":1,"payload":{"lines":[0,1]},"content":"<a href=\"http://cheft.cn\">吾艺不精</a>","children":[{"type":"heading","depth":2,"payload":{"lines":[2,3]},"content":"国学","children":[{"type":"heading","depth":3,"payload":{"lines":[3,4]},"content":"历史","children":[{"type":"list_item","depth":5,"payload":{"lines":[4,5]},"content":"[网站]<a href=\"https://www.allhistory.com/\">全历史</a>"},{"type":"list_item","depth":5,"payload":{"lines":[5,6]},"content":"[书籍]<a href=\"https://www.jd.com/chanpin/131118.html\">中华上下五千年</a>"},{"type":"list_item","depth":5,"payload":{"lines":[6,7]},"content":"[视频]<a href=\"https://www.bilibili.com/video/BV1SW411o75x\">中华上下五千年</a>"}]},{"type":"heading","depth":3,"payload":{"lines":[7,8]},"content":"儒学"},{"type":"heading","depth":3,"payload":{"lines":[9,10]},"content":"名著","children":[{"type":"list_item","depth":5,"payload":{"lines":[10,11]},"content":"西游记"},{"type":"list_item","depth":5,"payload":{"lines":[11,12]},"content":"三国演义"},{"type":"list_item","depth":5,"payload":{"lines":[12,13]},"content":"水浒传"},{"type":"list_item","depth":5,"payload":{"lines":[13,14]},"content":"红楼梦"}]}]},{"type":"heading","depth":2,"payload":{"lines":[15,16]},"content":"数学"},{"type":"heading","depth":2,"payload":{"lines":[17,18]},"content":"美术","children":[{"type":"heading","depth":3,"payload":{"lines":[18,19]},"content":"传统美术"},{"type":"heading","depth":3,"payload":{"lines":[19,20]},"content":"CG 美术","children":[{"type":"list_item","depth":5,"payload":{"lines":[20,21]},"content":"Blender 入门 转 游戏&gt;游戏制作&gt;Blender入门"}]}]},{"type":"heading","depth":2,"payload":{"lines":[22,23]},"content":"编程","children":[{"type":"heading","depth":3,"payload":{"lines":[23,24]},"content":"学术编程"},{"type":"heading","depth":3,"payload":{"lines":[24,25]},"content":"应用编程","children":[{"type":"heading","depth":4,"payload":{"lines":[25,26]},"content":"计算机基础","children":[{"type":"list_item","depth":6,"payload":{"lines":[26,27]},"content":"[视频]<a href=\"https://www.bilibili.com/video/BV1Lb411J7oq\">比尔.盖茨亲自授课--计算机原理</a>"},{"type":"list_item","depth":6,"payload":{"lines":[27,28]},"content":"[视频]<a href=\"https://www.bilibili.com/video/BV1EW411u7th\">计算机科学速成课</a>"}]},{"type":"heading","depth":4,"payload":{"lines":[28,29]},"content":"学习方法与兴趣","children":[{"type":"list_item","depth":6,"payload":{"lines":[29,30]},"content":"科学上网"},{"type":"list_item","depth":6,"payload":{"lines":[30,31]},"content":"搜索技巧"}]},{"type":"heading","depth":4,"payload":{"lines":[31,32]},"content":"HTTP 网络原理"},{"type":"heading","depth":4,"payload":{"lines":[32,33]},"content":"数据结构与算法"},{"type":"heading","depth":4,"payload":{"lines":[33,34]},"content":"设计模式"},{"type":"heading","depth":4,"payload":{"lines":[35,36]},"content":"Go 语言","children":[{"type":"list_item","depth":6,"payload":{"lines":[36,37]},"content":"[网站]<a href=\"https://devhints.io/go\">Go语法手册尝鲜</a>"},{"type":"list_item","depth":6,"payload":{"lines":[37,38]},"content":"[网站]<a href=\"https://books.studygolang.com/gopl-zh/\">Go语言圣经</a>"},{"type":"list_item","depth":6,"payload":{"lines":[38,39]},"content":"[视频]<a href=\"https://www.bilibili.com/video/BV1fD4y1m7TD\">Go语言编程快速入门</a>"},{"type":"list_item","depth":6,"payload":{"lines":[39,40]},"content":"MySQL与ORM框架"},{"type":"list_item","depth":6,"payload":{"lines":[40,41]},"content":"Redis、MDB及中间件"},{"type":"list_item","depth":6,"payload":{"lines":[41,42]},"content":"Git相关、编辑器实操"},{"type":"list_item","depth":6,"payload":{"lines":[42,43]},"content":"Linux、Docker、K8S"},{"type":"list_item","depth":6,"payload":{"lines":[43,44]},"content":"项目经验与实战"},{"type":"list_item","depth":6,"payload":{"lines":[44,45]},"content":"面试技巧及其它知识"}]},{"type":"heading","depth":4,"payload":{"lines":[45,46]},"content":"前端"},{"type":"heading","depth":4,"payload":{"lines":[46,47]},"content":"Nodejs"},{"type":"heading","depth":4,"payload":{"lines":[47,48]},"content":"Java"},{"type":"heading","depth":4,"payload":{"lines":[48,49]},"content":"运维"}]}]},{"type":"heading","depth":2,"payload":{"lines":[50,51]},"content":"运动","children":[{"type":"heading","depth":3,"payload":{"lines":[51,52]},"content":"运动项目"},{"type":"heading","depth":3,"payload":{"lines":[52,53]},"content":"动作设计"}]},{"type":"heading","depth":2,"payload":{"lines":[54,55]},"content":"外语","children":[{"type":"heading","depth":3,"payload":{"lines":[55,56]},"content":"英语"},{"type":"heading","depth":3,"payload":{"lines":[56,57]},"content":"日语"}]},{"type":"heading","depth":2,"payload":{"lines":[58,59]},"content":"音乐","children":[{"type":"heading","depth":3,"payload":{"lines":[59,60]},"content":"古典音乐"},{"type":"heading","depth":3,"payload":{"lines":[60,61]},"content":"华语音乐"},{"type":"heading","depth":3,"payload":{"lines":[61,62]},"content":"其它音乐"}]},{"type":"heading","depth":2,"payload":{"lines":[63,64]},"content":"游戏","children":[{"type":"heading","depth":3,"payload":{"lines":[64,65]},"content":"游戏游玩"},{"type":"heading","depth":3,"payload":{"lines":[65,66]},"content":"游戏制作","children":[{"type":"heading","depth":4,"payload":{"lines":[66,67]},"content":"游戏策划"},{"type":"heading","depth":4,"payload":{"lines":[67,68]},"content":"Blender 入门","children":[{"type":"list_item","depth":6,"payload":{"lines":[68,69]},"content":"[视频]<a href=\"https://www.bilibili.com/video/BV1Mf4y1h79S\">Guru的甜甜圈教程</a>"}]},{"type":"heading","depth":4,"payload":{"lines":[69,70]},"content":"UE5 入门","children":[{"type":"list_item","depth":6,"payload":{"lines":[70,71]},"content":"[视频]<a href=\"https://www.bilibili.com/video/BV153411p7HU\">最好的UE5入门教程-猴子神庙</a>"}]},{"type":"heading","depth":4,"payload":{"lines":[71,72]},"content":"Unity 入门"}]}]},{"type":"heading","depth":2,"payload":{"lines":[73,74]},"content":"动漫","children":[{"type":"heading","depth":3,"payload":{"lines":[74,75]},"content":"中国动漫"},{"type":"heading","depth":3,"payload":{"lines":[75,76]},"content":"其它动漫"}]},{"type":"heading","depth":2,"payload":{"lines":[77,78]},"content":"影视","children":[{"type":"heading","depth":3,"payload":{"lines":[78,79]},"content":"中国影视"},{"type":"heading","depth":3,"payload":{"lines":[79,80]},"content":"其它影视"}]}]},{})</script>
 </body>
 </html>
