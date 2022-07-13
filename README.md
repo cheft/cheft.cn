@@ -1,56 +1,65 @@
-# 吾艺不精<br>安能造次
+# 吾艺渐精
 
 ## 编程
-- 学术研究
-  - 图形学
-    - [GAMES101-现代计算机图形学入门-闫令琪](https://www.bilibili.com/video/BV1X7411F744)
-
-- 应用编程
-  - 学习方法与兴趣
-    - 搜索技巧、科学上网
-  - 计算机基础
-    - [视频][比尔.盖茨亲自授课--计算机原理](https://www.bilibili.com/video/BV1Lb411J7oq)
-    - [视频][计算机科学速成课](https://www.bilibili.com/video/BV1EW411u7th)
-    - HTTP 网络原理
-    - 数据结构与算法
-    - 设计模式
-  - Go 语言
-    - [网站][Go语法手册尝鲜](https://devhints.io/go)
-    - [网站][Go语言圣经](https://books.studygolang.com/gopl-zh/)
-    - [视频][Go语言编程快速入门](https://www.bilibili.com/video/BV1fD4y1m7TD)
-    - [网站][Go语言高级编程](https://chai2010.cn/advanced-go-programming-book/)
-    - [网站][Go 语言设计与实现](https://draveness.me/golang/)
-    - Web 框架，Gin、Fiber、Go zero
-    - MySQL与ORM框架
-    - Redis、MDB及中间件
-    - Git相关、编辑器实操
-    - Linux、Docker、K8S
-    - 项目经验与实战
-    - 面试技巧及其它知识
-  - 前端
-    - HTML/CSS
-    - Javascript
-    - Vue
-    - Flutter
-  - 其他后端
-    - Node
-    - Rust
-    - Java
+- 学习方法与兴趣
+  - 搜索技巧
+  - 科学上网
+  - 常用网站
+- 计算机基础
+  - [视频][比尔.盖茨亲自授课--计算机原理](https://www.bilibili.com/video/BV1Lb411J7oq)
+  - [视频][计算机科学速成课](https://www.bilibili.com/video/BV1EW411u7th)
+  - HTTP 网络原理
+  - 数据结构与算法
+  - 设计模式
+- Go 语言
+  - [网站][Go语法手册尝鲜](https://devhints.io/go)
+  - [网站][Go语言圣经](https://books.studygolang.com/gopl-zh/)
+  - [视频][Go语言编程快速入门](https://www.bilibili.com/video/BV1fD4y1m7TD)
+  - [网站][Go语言高级编程](https://chai2010.cn/advanced-go-programming-book/)
+  - [网站][Go 语言设计与实现](https://draveness.me/golang/)
+  - Web 框架，Gin、Fiber、Go zero
+  - MySQL与ORM框架
+  - Redis、MDB及中间件
+  - Git相关、编辑器实操
+  - Linux、Docker、K8S
+  - 项目经验与实战
+  - 面试技巧及其它知识
+- 前端
+  - HTML/CSS
+  - Javascript
+  - Vue
+  - React
+  - Flutter
+- 其他后端
+  - Node
+  - Rust
+  - Java
+  - C#
+  - Python
+- Web3.0
+  - 元宇宙
+  - NFT
+  - 区块链
 
 ## 游戏
+- 图形学
+  - [GAMES101-现代计算机图形学入门-闫令琪](https://www.bilibili.com/video/BV1X7411F744)
+- 游戏引擎
+  - [GAMES104-现代游戏引擎：从入门到实践](https://www.bilibili.com/video/BV1X7411F744)
+  - 引擎选择 UE5、Unity、Godot、Defold、Bevy
 - 游戏制作
   - 游戏策划
-  - 游戏引擎
-    - 引擎选择 UE5、Unity、Godot、Defold、Bevy
+    - [视频][游戏策划零基础入职-基础课](https://www.bilibili.com/video/BV1Lz411v7Be)
   - UE5 入门
     - [视频][最好的UE5入门教程-猴子神庙](https://www.bilibili.com/video/BV153411p7HU)
     - [视频][最好的UE5入门教程（第二弹）《制作一个小游戏》](https://www.bilibili.com/video/BV1ZU4y1d7ya)
     - [视频][带你入门虚幻引擎5场景地编_完整流程](https://www.bilibili.com/video/BV1a34y1C7Y7)
     - [视频][UE5零基础中文入门教程（影视CG动画向）](https://www.bilibili.com/video/BV13a411q7H7)
-  - Unity 入门
+    - [视频][虚幻引擎5(UE5) 全套零基础入门到实战课程](https://www.bilibili.com/video/BV1zY4y1H7PF)
 
 - 游戏游玩
   - 任天堂
+    - [视频]历史：永远的神！游戏界唯一的王」任天堂 称霸之路 [上](https://www.bilibili.com/video/BV1PS4y1Z7Pu) [中](https://www.bilibili.com/video/BV1Pb4y1J7sD) [下](https://www.bilibili.com/video/BV1W44y1H76K/)
     - 马里奥系列
     - 塞儿达系列
   - 索尼
@@ -60,34 +69,53 @@
 
 ## 美术
   - 传统美术
-    - 素描入门
+    - [视频][五天学会画画/像艺术家一样思考](https://www.bilibili.com/video/BV16a4y1t7sN)
   - CG 美术
     - [视频][如何成为一名优秀的设计师：罗子雄](https://www.bilibili.com/video/BV1DW411i79u)
     - [视频][游戏用像素画教程](https://www.bilibili.com/video/BV144411v7iS)
   - Blender 入门
     - [视频][Guru的甜甜圈教程](https://www.bilibili.com/video/BV1LS4y197SC)
+    - [视频][Blender完全入门教程，最佳入门教程](https://www.bilibili.com/video/BV1qq4y1772P)
+    - [视频][blender3.1新手0基础入门【全集】](https://www.bilibili.com/video/BV1US4y1N7xN)
+    - [视频][Blender 动画：入门到精通完全教程](https://www.bilibili.com/video/BV1Aq4y1U7kX)
 
 ## 国学
   - 历史
     - [网站][全历史](https://www.allhistory.com/)
     - [书籍][中华上下五千年](https://www.jd.com/chanpin/131118.html)
     - [视频][中华上下五千年](https://www.bilibili.com/video/BV1SW411o75x)
-  - 儒学
   - 名著
     - 西游记
+      - [视频][86版西游记](https://www.bilibili.com/bangumi/play/ss33622)
+      - [书籍][《西游记》 吴承恩 著](https://www.purepen.com/xyj/)
     - 三国演义
       - [视频][94版三国演义](https://www.bilibili.com/bangumi/play/ep327584)
       - [书籍][《三国演义》 罗贯中 著](http://www.purepen.com/sgyy/)
-      - []
+      - [书籍][三国志 【西晋】陈寿  著](https://yuedu.163.com/source/ccb8119dd87646d49752ed73f0ab672f_4)
     - 水浒传
+      - [视频][98版水浒传](https://www.bilibili.com/bangumi/play/ss33625)
+      - [书籍][《水浒传》 施耐庵 著](http://www.purepen.com/shz/)
     - 红楼梦
+      - [视频][87版红楼梦](https://www.bilibili.com/bangumi/media/md28229053)
+      - [书籍][《红楼梦》 〖清〗曹雪芹 高鹗 著](http://www.purepen.com/hlm/)
+  - 儒学
+    - 二十四孝
+    - 十三经
+    - 子部儒家类
+    - 四书五经
 
 <!-- ## 数学 -->
 
 ## 语言
-- 文言文
-- 粤语
 - 英语
+  - [网站][打字背单词](https://qwerty.kaiyi.cool/)每天半小时
+  - [书籍][英语提升技巧](https://babyyoung.gitbook.io/english-level-up-tips/)
+  - [视频][110集 • 油管最好的口语课](https://www.bilibili.com/video/BV1gK4y147wf)
+- 粤语
+  - 港剧
+  - 黄子华栋笃笑
+  - 粤语音乐
+- 文言文
 - 日语
 
 ## 音乐
@@ -105,6 +133,9 @@
 
 ## 数码
 - 开源硬件
+  - Arduino
+  - 树莓派
+  - 开发板
 - 电脑
 - 手机
 
