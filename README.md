@@ -8,6 +8,7 @@
 - 计算机基础
   - [视频][比尔.盖茨亲自授课--计算机原理](https://www.bilibili.com/video/BV1Lb411J7oq)
   - [视频][计算机科学速成课](https://www.bilibili.com/video/BV1EW411u7th)
+  - 编译原理
   - HTTP 网络原理
   - 数据结构与算法
   - 设计模式
@@ -19,23 +20,59 @@
   - [网站][Go 语言设计与实现](https://draveness.me/golang/)
   - Web 框架，Gin、Fiber、Go zero
   - MySQL与ORM框架
-  - Redis、MDB及中间件
-  - Git相关、编辑器实操
-  - Linux、Docker、K8S
-  - 项目经验与实战
-  - 面试技巧及其它知识
+
 - 前端
   - HTML/CSS
   - Javascript
   - Vue
+    - Vue Router
+    - Vuex
+    - Nuxt
   - React
+    - Redux
+    - Next
+    - React Native
+  - Svelte
   - Flutter
+  - WebGL: Three.js、Babylon.js
+  - 工具: Yarn、Webpack、Vite
 - 其他后端
   - Node
-  - Rust
+    - Express、Koa、Nest
+    - Typorm、Prisma、Mongoose
   - Java
+    - Spring、SpringMVC、Mybatis
+    - Spring Boot、Spring Cloud、Dubbo
+    - Nacos、ZooKeeper、RocketMQ、Maven
+    - Hadoop、HBase、Spark、Flink
   - C#
+    - ASP.NET Core
+    - DAO.NET、LINQ
+    - WinForm.NET、MAUI
   - Python
+    - Django、Flask
+    - Scrapy、Selenium
+    - TensorFlow、Keras
+  - Rust
+    - axum、poem
+    - egui、tauri
+    - bevy、kajiya
+    - wasm、webgpu
+- 通用技术
+  - OAuth2、gRPC、Websocket、HTTP2
+  - Redis、Mongodb、Ectd
+  - Git、VSCode编辑器、Gitlab
+  - Linux、Docker、K8S
+  - Filebeat、Elasticsearch、Prometheus
+- 云计算
+  - 阿里云、腾讯云
+    - ECS、RDS、短信服务
+    - CDN、OSS、计算函数
+    - 人工智能API
+  - 亚马逊AWS
+    - EC2、RDB、S3、Lambda、SQS
+  - 容器化
+    - Kubernetes、Docker、镜像私服、CI/CD
 - Web3.0
   - 元宇宙
   - NFT
@@ -43,9 +80,10 @@
 
 ## 游戏
 - 图形学
-  - [GAMES101-现代计算机图形学入门-闫令琪](https://www.bilibili.com/video/BV1X7411F744)
+  - [视频][GAMES101-现代计算机图形学入门-闫令琪](https://www.bilibili.com/video/BV1X7411F744)
+  - [视频]
 - 游戏引擎
-  - [GAMES104-现代游戏引擎：从入门到实践](https://www.bilibili.com/video/BV1X7411F744)
+  - [视频][GAMES104-现代游戏引擎：从入门到实践](https://www.bilibili.com/video/BV1X7411F744)
   - 引擎选择 UE5、Unity、Godot、Defold、Bevy
 - 游戏制作
   - 游戏策划
