@@ -1,25 +1,32 @@
-# 吾艺渐精
+# 吾艺渐精<br />未来之路
 
 ## 编程
+- 计算机基础
+  - [视频][比尔.盖茨亲自授课--计算机原理](https://www.bilibili.com/video/BV1Lb411J7oq)
+  - [视频][计算机科学速成课](https://www.bilibili.com/video/BV1EW411u7th)
+  - [视频][CS143 斯坦福大学编译原理【中文字幕】](https://www.bilibili.com/video/BV1NE411376V)
+  - [视频][互联网之父讲解网络原理](https://www.bilibili.com/video/BV1a7411A7kb)
+  - [视频][2021版马士兵重讲23种设计模式](https://www.bilibili.com/video/BV1M5411N7uh)
+  - [视频][计算机组成原理+计算机网络+计算机操作系统+数据结构与算法](https://www.bilibili.com/video/BV1Ha411p7WP)
 - 学习方法与兴趣
   - 搜索技巧
   - 科学上网
   - 常用网站
-- 计算机基础
-  - [视频][比尔.盖茨亲自授课--计算机原理](https://www.bilibili.com/video/BV1Lb411J7oq)
-  - [视频][计算机科学速成课](https://www.bilibili.com/video/BV1EW411u7th)
-  - 编译原理
-  - HTTP 网络原理
-  - 数据结构与算法
-  - 设计模式
+    - [github趋势](https://github.com/explore)
+    - [黑客资讯](https://news.ycombinator.com/)
+    - [Reddit论坛]( https://www.reddit.com/)
+    - [Stackoverflow行业分析](https://survey.stackoverflow.co/2022/)
+    - [Quora问答](https://www.quora.com/)
+    - [产品狩猎]( https://www.producthunt.com/)
+    - 国内知乎、segmentfault、掘金、infoq等
 - Go 语言
   - [网站][Go语法手册尝鲜](https://devhints.io/go)
   - [网站][Go语言圣经](https://books.studygolang.com/gopl-zh/)
   - [视频][Go语言编程快速入门](https://www.bilibili.com/video/BV1fD4y1m7TD)
   - [网站][Go语言高级编程](https://chai2010.cn/advanced-go-programming-book/)
   - [网站][Go 语言设计与实现](https://draveness.me/golang/)
-  - Web 框架，Gin、Fiber、Go zero
-  - MySQL与ORM框架
+  - Web 框架: Gin、Fiber、Go zero
+  - MySQL 与 ORM 框架
 
 - 前端
   - HTML/CSS
@@ -61,7 +68,7 @@
 - 通用技术
   - OAuth2、gRPC、Websocket、HTTP2
   - Redis、Mongodb、Ectd
-  - Git、VSCode编辑器、Gitlab
+  - Git、VSCode、Gitlab
   - Linux、Docker、K8S
   - Filebeat、Elasticsearch、Prometheus
 - 云计算
@@ -74,14 +81,20 @@
   - 容器化
     - Kubernetes、Docker、镜像私服、CI/CD
 - Web3.0
-  - 元宇宙
-  - NFT
+  - 元宇宙：GameFi、SocialFi、WorkFi
+  - NFT：ERC-721、ERC-1155、以太坊
   - 区块链
+    - Basic Prototype
+    - Proof-of-Work
+    - Persistence
+    - Transactions
+    - Addresses
+    - Network
 
 ## 游戏
 - 图形学
   - [视频][GAMES101-现代计算机图形学入门-闫令琪](https://www.bilibili.com/video/BV1X7411F744)
-  - [视频]
+  - [网站][The Book of Shaders中文版](https://thebookofshaders.com/?lan=ch)
 - 游戏引擎
   - [视频][GAMES104-现代游戏引擎：从入门到实践](https://www.bilibili.com/video/BV1X7411F744)
   - 引擎选择 UE5、Unity、Godot、Defold、Bevy
@@ -102,6 +115,7 @@
     - 塞儿达系列
   - 索尼
     - 战神系列
+    - 神秘海域系列
   - Steam
 
 
